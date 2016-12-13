@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class AEvent extends Frame implements ActionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	TextField tf;
 
 	AEvent() {

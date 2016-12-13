@@ -11,7 +11,7 @@ class MultiCatch {
 			
 			int c[] = { 88 };
 			c[42] = 99;
-			
+			System.out.println(b);
 			System.out.println("i will not get executed ");
 			System.out.println("i will not get executed ");
 			System.out.println("i will not get executed ");

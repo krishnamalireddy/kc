@@ -30,10 +30,10 @@ class SimpleInheritance {
 		A superObA = new A();
 		B subObB = new B();
 		// The superclass may be used by itself.
-		/*superObA.i = 10;
+		superObA.i = 10;
 		superObA.j = 20;
 		System.out.println("Contents of superOb:");
-		superObA.showij();*/
+		superObA.showij();
 		/*System.out.println();
 		/*
 		 * The subclass has access to all public members of its superclass.
@@ -47,9 +47,9 @@ class SimpleInheritance {
 		///-------------------------
 		subObB.showk();
 		//System.out.println();
-		//System.out.println("Sum of i, j and k in subOb:" + subOb.sum());
+		System.out.println("Sum of i, j and k in subObB:" + subObB.sum());
 		
-	     // subOb.sum();
+	     // subObB.sum();
 		
 		
 		

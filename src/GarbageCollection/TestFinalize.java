@@ -54,6 +54,7 @@ class TestFinalize {
 
 	public static void main(String args[]) {
 
+		@SuppressWarnings("unused")
 		FinClass fc = new FinClass();
 		System.out.println("System.gc() is called in the next statement");
 		fc = null;// Set fc to null to break all references to it so when you

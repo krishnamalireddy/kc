@@ -1,8 +1,10 @@
 package GRAPHICS;
 
 import javax.swing.*;
+
 import java.awt.event.*;
 
+@SuppressWarnings("serial")
 class RadioExample extends JFrame implements ActionListener {
 	JRadioButton rb1, rb2;
 	JButton b;

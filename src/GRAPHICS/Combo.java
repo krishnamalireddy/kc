@@ -10,7 +10,7 @@ public class Combo {
 
 		String country[] = { "India", "Aus", "U.S.A", "England", "Newzeland" };
 
-		JComboBox cb = new JComboBox(country);
+		JComboBox<String> cb = new JComboBox<String>(country);
 		cb.setBounds(50, 50, 90, 20);
 		f.add(cb);
 

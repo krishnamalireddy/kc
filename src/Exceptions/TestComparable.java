@@ -2,7 +2,7 @@ package Exceptions;
 
 import java.util.*;
 
-class Person1 implements Comparable {
+class Person1 implements Comparable<Object> {
 	private String firstName;
 	private String lastName;
 	private int age;

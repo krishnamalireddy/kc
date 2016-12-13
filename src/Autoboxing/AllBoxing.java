@@ -13,6 +13,7 @@ List<Integer> ints = new ArrayList<Integer>();
 ints.add(5);
 ints.add(6);
 //Returns integer at index 0
+@SuppressWarnings("unused")
 int iw = ints.get(0);
 
 //As of JDK 1.5, it got better with Auto-boxing and genrics
@@ -21,6 +22,7 @@ int iw = ints.get(0);
 intsq.add(5);
 intsq.add(6);
 //Returns integer at index 0
+@SuppressWarnings("unused")
 int ie = intsq.get(0);
 
  

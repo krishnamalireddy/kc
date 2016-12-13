@@ -7,7 +7,7 @@ public class Withouttry {
 		int d = 0;
 		System.out.println("in the try block");
 		int a = 42 / d;
-		
+		System.out.println(a);
 		System.out.println("The res of the work in normal course");
 		System.out.println("The res of the work in normal course");
 		System.out.println("The res of the work in normal course");

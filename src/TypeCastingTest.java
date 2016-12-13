@@ -1,5 +1,5 @@
 
-/*•
+/*ï¿½
  * Assigning a value of one type to a variable of another type is known as Type Casting
  * Widening Casting(Implicit)
 
@@ -7,7 +7,7 @@ widening-type-conversion
 
 byte short int double --->
 <----
-•Narrowing Casting(Explicitly done)
+ï¿½Narrowing Casting(Explicitly done)
 
 */
 
@@ -57,7 +57,8 @@ public class TypeCastingTest {
       if(a instanceof Cat)
       { // testing if the Animal is a Cat
       System.out.println("It's a Cat! Now i can safely downcast it to a Cat, without a fear of failure.");
-      Cat c2 = (Cat)a ;//down casting
+      @SuppressWarnings("unused")
+	Cat c2 = (Cat)a ;//down casting
       }
      
       

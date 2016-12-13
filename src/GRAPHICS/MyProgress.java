@@ -2,6 +2,7 @@ package GRAPHICS;
 
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 public class MyProgress extends JFrame {
 	JProgressBar jb;
 	int i = 0, num = 0;

@@ -13,7 +13,7 @@ import java.util.List;
 public class GenericsCollection {
 	public static void main(String[] args) {  
 	
-	List list = new ArrayList();
+	List<Object> list = new ArrayList<Object>();
 
 	list.add(new Integer(2));
 	list.add("a String");

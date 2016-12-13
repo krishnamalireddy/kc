@@ -20,7 +20,6 @@ class UseStatic {
 		System.out.println("a = " + a);
 		System.out.println("b = " + b);
 		
-		int b=0;
 	}
 
 	static {

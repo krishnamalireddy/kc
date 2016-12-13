@@ -1,4 +1,4 @@
-package FILEHANDLING;
+package SwingPrac;
 
 import java.awt.*;
 

@@ -3,6 +3,10 @@ package Exceptions;
 
 // This program creates a custom exception type.
 class MyMoneyTransferException extends Exception {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int detail;
 
 	MyMoneyTransferException(int amount) {

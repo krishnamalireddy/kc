@@ -7,7 +7,7 @@ import java.util.*;
 class HashSetDemo {
 	public static void main(String args[]) {
 		// create a hash set
-		HashSet hs = new HashSet();
+		HashSet<String> hs = new HashSet<String>();
 		
 		
 		// add elements to the hash set

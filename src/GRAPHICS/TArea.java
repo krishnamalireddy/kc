@@ -1,6 +1,5 @@
 package GRAPHICS;
 
-import java.awt.Color;
 import javax.swing.*;
 
 public class TArea {

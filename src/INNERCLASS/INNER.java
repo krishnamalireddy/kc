@@ -55,6 +55,7 @@ class Food {
 			System.out.println("anonymous popcorn");
 		}
 
+		@SuppressWarnings("unused")
 		public void sizzele()// cant dothis since Popcorn doesnt have it
 		{
 			System.out.println("ano claas implementing new method");
@@ -148,7 +149,7 @@ class INNER {
 
 		MyOuter m12 = new MyOuter();
 
-		// m12.makeInner();
+		 m12.makeInner();
 		// BigOuter n = new BigOuter(); //Use both class names
 		// n.Hello();
 		// n.Hello1();

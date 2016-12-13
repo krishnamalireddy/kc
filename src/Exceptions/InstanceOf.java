@@ -1,6 +1,6 @@
 package Exceptions;
 
-// Demonstrate instanceof operator.
+// Demonstrate instance of operator.
 class A {
 	int i, j;
 }
@@ -33,7 +33,7 @@ class InstanceOf {
 			System.out.println("c can be cast to A");
 		if (a instanceof C)
 			System.out.println("a can be cast to C");
-		/*System.out.println();
+		//System.out.println();
 		// compare types of derived types
 		A ob;
 		ob = d; // A reference to d
@@ -61,7 +61,7 @@ class InstanceOf {
 		if (d instanceof Object)
 			System.out.println("d may be cast to Object");
 			
-			*/
+			
 	}
 }
 

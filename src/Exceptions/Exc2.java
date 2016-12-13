@@ -7,11 +7,12 @@ class Exc2 {
 			d = 0;
 			System.out.println("in the try block");
 			a = 42 / d;
+			System.out.println(a);
+			System.out.println("The res of the work in normal course");
+			System.out.println("The res of the work in normal course");
+			System.out.println("The res of the work in normal course");
+			System.out.println("The res of the work in normal course");
 			
-			System.out.println("The res of the work in normal course");
-			System.out.println("The res of the work in normal course");
-			System.out.println("The res of the work in normal course");
-			System.out.println("The res of the work in normal course");
 		} 
 		
 		

@@ -70,6 +70,7 @@ public class SerializationDemo {
 
 }
 
+@SuppressWarnings("serial")
 class MyClass implements Serializable {
 	String s;
 	int i;

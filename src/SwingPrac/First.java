@@ -1,7 +1,8 @@
-package FILEHANDLING;
+package SwingPrac;
 
 import java.awt.*;
 
+@SuppressWarnings("serial")
 class First extends Frame {
 	First() {
 		Button b = new Button("click me");
@@ -15,5 +16,6 @@ class First extends Frame {
 
 	public static void main(String args[]) {
 		First f = new First();
+		
 	}
 }

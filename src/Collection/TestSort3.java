@@ -9,12 +9,13 @@ package Collection;
  */
 
 import java.util.*;
-import java.io.*;
 
 class TestSort3 {
+
+
 	public static void main(String args[]) {
 
-		ArrayList al = new ArrayList();
+		ArrayList<Student> al = new ArrayList<Student>();
 		al.add(new Student(101, "Vijay", 23));
 		al.add(new Student(106, "Ajay", 27));
 		al.add(new Student(105, "Jai", 21));
@@ -22,15 +23,15 @@ class TestSort3 {
 		Collections.sort(al);
 		
 		
-		Iterator itr = al.iterator();
+		Iterator<Student> itr = al.iterator();
 		while (itr.hasNext()) {
-			Student st = (Student) itr.next();
+			Student st = itr.next();
 			System.out.println(st.rollno + "" + st.name + "" + st.age);
 		}
 	}
 }
 
-class Student implements Comparable {
+class Student implements Comparable<Object> {
 	int rollno;
 	String name;
 	int age;

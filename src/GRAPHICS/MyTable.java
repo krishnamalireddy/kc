@@ -15,6 +15,7 @@ MyTable(){
 	JTable jt=new JTable(data,column);
 	jt.setBounds(30,40,200,300);
 	
+	@SuppressWarnings("unused")
 	JScrollPane sp=new JScrollPane(jt);
 	f.add(jt);
 	

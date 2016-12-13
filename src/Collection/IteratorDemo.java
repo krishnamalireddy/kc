@@ -6,7 +6,7 @@ import java.util.*;
 class IteratorDemo {
 	public static void main(String args[]) {
 		// create an array list
-		ArrayList al = new ArrayList();
+		ArrayList<String> al = new ArrayList<String>();
 		// add elements to the array list
 		al.add("C");
 		al.add("A");
@@ -16,14 +16,14 @@ class IteratorDemo {
 		al.add("F");
 		// use iterator to display contents of al
 		System.out.print("Original contents of al: ");
-		Iterator itr = al.iterator();
+		Iterator<String> itr = al.iterator();
 		while (itr.hasNext()) {
 			Object element = itr.next();
 			System.out.print(element + " ");
 		}
 		System.out.println();
 		// modify objects being iterated
-		ListIterator litr = al.listIterator();
+		ListIterator<String> litr = al.listIterator();
 		while (litr.hasNext()) {
 			Object element = litr.next();
 			litr.set(element + "+");

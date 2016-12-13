@@ -3,6 +3,7 @@ package FILEHANDLING;
 import java.awt.*;
 import java.awt.event.*;
 
+@SuppressWarnings("serial")
 class AEvent3 extends Frame {
 	TextField tf;
 
@@ -13,6 +14,7 @@ class AEvent3 extends Frame {
 		b.setBounds(50, 120, 80, 30);
 
 		b.addActionListener(new ActionListener() {
+			@SuppressWarnings("unused")
 			public void actionPerformed() {
 				tf.setText("hello");
 			}
@@ -28,9 +30,11 @@ class AEvent3 extends Frame {
 		setSize(300, 300);
 		setLayout(null);
 		setVisible(true);
+		
 	}
 
 	public static void main(String args[]) {
 		new AEvent3();
+		
 	}
 }

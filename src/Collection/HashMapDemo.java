@@ -4,9 +4,10 @@ package Collection;
 import java.util.*;
 
 class HashMapDemo {
+	@SuppressWarnings("rawtypes")
 	public static void main(String args[]) {
 		// Create a hash map
-		HashMap hm = new HashMap();
+		HashMap<String, Double> hm = new HashMap<String, Double>();
 		// Put elements to the map
 		hm.put("John Doe", new Double(3434.34));
 		hm.put("Tom Smith", new Double(123.22));

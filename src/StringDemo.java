@@ -29,7 +29,7 @@ class StringDemo {
 		System.out.println( x1.concat(" cab") ); // output is "taxi cab"
 		
 		String x2 = "Exit";
-		System.out.println( x.equalsIgnoreCase("EXIT")); // is "true"
+		System.out.println( x.equalsIgnoreCase(x2)); // is "true"
 		System.out.println( x.equalsIgnoreCase("tixe")); // is "false"
 		
 		String xx = "0123456789"; // as if by magic, the value
@@ -43,9 +43,9 @@ class StringDemo {
 		// "A NEW MOON"
 		
 		String xw = " hi ";
-		System.out.println( xw + "x" ); // result is
+		System.out.println( xw + "Everyone" ); // result is
 		// " hi x"
-		System.out.println( xw.trim() + "x"); // result is "hix"
+		System.out.println( xw.trim() + "er"); // result is "hix"
 		
 	
 	}

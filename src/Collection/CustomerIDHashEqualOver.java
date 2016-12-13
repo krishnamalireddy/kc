@@ -26,7 +26,7 @@ public class CustomerIDHashEqualOver {
 	  }
 
 	  public boolean equals(Object obj) {
-	    //null instanceof Object will always return false
+	    //null instance of Object will always return false
 	    if (!(obj instanceof CustomerIDHashEqualOver))
 	      return false;
 	    if (obj == this)
@@ -42,7 +42,7 @@ public class CustomerIDHashEqualOver {
 	  }
 
 	  public static void main(String[] args) {
-	    Map m = new HashMap();
+	    Map<CustomerIDHashEqualOver, String> m = new HashMap<CustomerIDHashEqualOver, String>();
 	    m.put(new CustomerIDHashEqualOver(2345891234L,0),"Jeff Smith");
 	    System.out.println(m.get(new CustomerIDHashEqualOver(2345891234L,0)));
 	  }

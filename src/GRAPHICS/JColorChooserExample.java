@@ -3,8 +3,10 @@ package GRAPHICS;
 
 import java.awt.event.*;
 import java.awt.*;
+
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 public class JColorChooserExample extends JFrame implements ActionListener{
 JButton b;
 Container c;
